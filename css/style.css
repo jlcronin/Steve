@@ -1,4 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:200,300);
+
 body {
 	background-image: url(../img/background.jpg);
 	background-size: cover;
+}
+
+header {
+	border-bottom: 1px solid #000;
+}
+header ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	list-style: none;
+}
+header ul li {
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	opacity: 0.69;
+	transition: opacity 200ms;
+	-webkit-transition: opacity 200ms;
+	-moz-transition: opacity 200ms;
+	-o-transition: opacity 200ms;
+	-ms-transition: opacity 200ms;
+}
+header ul li.active,
+header ul li:hover {
+	opacity: 1;
+}
+header ul li a {
+	display: block;
+	height: 100%;
+	padding: 0 15px;
+	text-decoration: none;
+	color: #000
 }
