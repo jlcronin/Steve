@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:200,300);
+@import url(classes.css);
+
+body {
+	background: url(../img/background.png) no-repeat center center fixed;
+	background-size: cover;
+	background-color: #d3d3d3;
+}
+
+header ul {
+	width: 100%;
+	list-style: none;
+	border-bottom: 1px solid #a5a5a5;
+}
+header ul li {
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	opacity: 0.69;
+	transition: all 200ms;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+}
+header ul li.active,
+header ul li:hover {
+	opacity: 1;
+	background-color: rgba(0,0,0,0.1);
+}
+header ul li a {
+	display: block;
+	height: 100%;
+	padding: 0 15px;
+	text-decoration: none;
+	color: #000
+}
