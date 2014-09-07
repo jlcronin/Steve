@@ -10,6 +10,7 @@ body {
 header {
 	margin: 0 75px;
 	margin-bottom: 20px;
+	position: relative;
 }
 header ul {
 	width: 100%;
@@ -41,6 +42,20 @@ header ul li a {
 	padding: 0 15px;
 	text-decoration: none;
 	color: #000
+}
+header p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	line-height: 60px;
+}
+header p a {
+	text-decoration: none;
+	color: inherit;
 }
 
 @media screen and (max-width: 980px) {
@@ -78,6 +93,9 @@ header ul li a {
 		text-align: center;
 		height: 100px;
 		line-height: 100px;
+	}
+	header p {
+		display: none;
 	}
 }
 
@@ -183,6 +201,27 @@ h3 {
 	#gallery .gallery_item {
 		width: 100%;
 	}
+}
+
+
+/*CONTACT*/
+#contact {
+	width: 480px;
+	margin: 50px auto;
+}
+#contact form {
+	width: 400px;
+	margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+}
+#contact form input[type="text"],
+#contact form input[type="email"] {
+	width: 100%;
+}
+#contact form textarea {
+	width: 100%;
+	height: 200px;
+	resize: none;
 }
 
 a{}
