@@ -104,10 +104,10 @@ header p a {
 	}
 }
 
-article {
+/*article {
 	min-height: 500px;
 	min-height: calc(100% - 231px);
-}
+}*/
 h1 {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 32px;
@@ -123,10 +123,20 @@ h3 {
 
 /*FOOTER*/
 footer {
-	margin-top: 30px;
-	position: relative;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 	background-color: #4a4a4a;
 	height: 120px;
+	transition: bottom 300ms;
+	-webkit-transition: bottom 300ms;
+	-moz-transition: bottom 300ms;
+	-o-transition: bottom 300ms;
+	-ms-transition: bottom 300ms;
+}
+footer.close {
+	bottom: -120px;
 }
 footer .copy {
 	position: relative;
