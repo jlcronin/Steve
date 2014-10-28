@@ -1,12 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:200,300);
 @import url(classes.css);
 
-html {
-	height: 100%;
-}
-
 body {
-	height: 100%;
 	background: url(../img/background.png) no-repeat center center fixed;
 	background-size: cover;
 	background-color: #d3d3d3;
@@ -104,10 +99,7 @@ header p a {
 	}
 }
 
-/*article {
-	min-height: 500px;
-	min-height: calc(100% - 231px);
-}*/
+
 h1 {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 32px;
@@ -120,87 +112,6 @@ h3 {
 	text-align: center;
 }
 
-
-/*FOOTER*/
-footer {
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-color: #4a4a4a;
-	height: 120px;
-	transition: bottom 300ms;
-	-webkit-transition: bottom 300ms;
-	-moz-transition: bottom 300ms;
-	-o-transition: bottom 300ms;
-	-ms-transition: bottom 300ms;
-}
-footer.close {
-	bottom: -120px;
-}
-footer .copy {
-	position: relative;
-	margin: 0px 75px;
-	height: 38px;
-	border-bottom: 2px solid #6d6d6d;
-}
-footer .copy i.copy_icon {
-	display: block;
-	position: absolute;
-	left: 50%;
-	bottom: 0px;
-	width: 120px;
-	height: 46px;
-	margin: 0 auto;
-	margin-left: -60px;
-	margin-bottom: -20px;
-	background-color: #4a4a4a;
-	background-image: url(../img/footer/copyright.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 38px 46px;
-}
-footer .flags {
-	list-style: none;
-	margin: 20px 75px;
-}
-footer .flags li {
-	display: inline-block;
-	float: left;
-}
-footer .flags li a {
-	display: block;
-	padding: 0px 15px;
-}
-footer .flags li a img {
-	max-height: 50px;
-}
-footer .link {
-	position: absolute;
-	right: 75px;
-	bottom: 10px;
-}
-footer .link a {
-	color: #d3d3d3;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	opacity: 0.5;
-	transition: opacity 300ms;
-	-webkit-transition: opacity 300ms;
-	-moz-transition: opacity 300ms;
-	-o-transition: opacity 300ms;
-	-ms-transition: opacity 300ms;
-}
-footer .link a:hover {
-	opacity: 1;
-}
-
-@media screen and (max-width: 980px) {
-	footer {
-		display: none;
-	}
-}
 
 
 /*GALLERY*/
@@ -295,10 +206,8 @@ footer .link a:hover {
 
 /*CONTACT*/
 #contact {
-	height: 400px;
 	width: 480px;
-	padding-top: 50px;
-	margin: 0px auto;
+	margin: 50px auto;
 }
 #contact form {
 	width: 400px;
